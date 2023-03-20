@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p, li {
+    font-family: sans-serif;
+    font-size:  16px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #BFD3F2;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mains {
+    text-decoration: none;
+}
+
+.headerp {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8B95A6;
+}
+
+a {
+    color: black;
+    font-size: 12px;
+}
+
+
+.aboutheader {
+    color: #DB9C7B;
+    text-align: center;
+}
+
+.aboutp {
+    font-family: forma;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+    color: #8B95A6;
+    padding-right: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #BFD3F2;
+    padding: auto;
+}
+
+main {
+    width: 1200px;
+    border: solid #DB9C7B;
+}
+
+.mains a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #DB9C7B;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.container {
+    padding: 0px, 0px,0px,0px;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    margin: 0px, 12px, 24px, 12px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.card img {
+    width: 300px;
+    height: 400px;
+    
+}
+
+.card a {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #DB9C7B;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.contain, .contain a {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    width: 598px;
+    color: #DB9C7B;
+    text-decoration: none;
+
+}
+.contain2, .contain2 a {
+    position: relative;
+    text-align: center;
+    color: #BFD3F2;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    width: 598px;
+    text-decoration: none;
+
+}
+
+.centered, .centered a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background {
+    background-image: url(images/coverphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 1000px;
+    height: 700px;
+    display: inline-block;
+}
+
+.hero-text {
+    text-align: left;
+    font-size: 170px;
+    color: #DB9C7B;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+}
+
+.hero-text2 {
+    text-align: right;
+    font-size: 170px;
+    color: #DB9C7B;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 120px;
+    padding-left: 430px;
+    display: inline-block;
+}
+
+
+.links, .links2, .links a, .links2 a {
+
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #BFD3F2;
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 530px;
+
+}
+
+.backgrounddog1 {
+    background-image: url(images/dog1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.backgrounddog2 {
+    background-image: url(images/dog2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.backgrounddog3 {
+    background-image: url(images/dog3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.backgrounddog4 {
+    background-image: url(images/dog4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.dog1text, .dog2text, .dog3text, .dog4text {
+    font-size: 200px;
+}
+
+.dog1p, .dog2p, .dog3p, .dog4p {
+    display: inline-block;
+    width: 300px;
+    padding-left: 10px;
+    display: block;
+    padding-left: 850px ;
+    font-family: forma;
+    color: #8B95A6;
+}
+.backgroundcat1 {
+    background-image: url(images/cat1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.backgroundcat2 {
+    background-image: url(images/cat2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.backgroundcat3 {
+    background-image: url(images/cat3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.backgroundcat4 {
+    background-image: url(images/cat4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.cat1text, .cat2text, .cat3text, .cat4text {
+    font-size: 200px;
+    color: #DB9C7B;
+}
+
+.cat1p, .cat2p, .cat3p, .cat4p {
+    display: inline-block;
+    width: 300px;
+    padding-left: 10px;
+    display: block;
+    padding-left: 850px ;
+    font-family: forma;
+    color: #DB9C7B;
+}
+
+.next {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #DB9C7B;
+    padding-left: 1100px;
+    text-decoration: none;
+}
+
+.prev {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #8B95A6;
+    padding-left: 1040px;
+    text-decoration: none;
+}
+
+.backgroundabout {
+    background-image: url(images/kevin-turcios-rls2bfqYh8E-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    width: 800px;
+    height: 1000px;
+}
+
+.aboutp {
+    text-align: left;
+    font-family: forma;
+    color: #8B95A6;
+    padding-left: 850px;
+    width: 300px;
+}
+
+
+footer {
+    background-color: #BFD3F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+form {
+    width: 400px;
+    margin-left: 450px;
+}
+
+input, textarea {
+    font-size: 1.25em;
+    display: block;
+    width: 300px;
+    margin: 10px, auto;
+    padding: 6px;
+    text-align: center;
+    align-content: center;
+}
+
+.form-button {
+    text-align: center;
+    background-color: #DB9C7B;
+    width: 300px;
+    margin: 0, auto;
+    padding: 6px;
+}
+
+.form-button a {
+    color: #BFD3F2;
+    font-size: 1.25em;
+}
+
+.newsletter {
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px, 0, 0, 0;
+
+}
